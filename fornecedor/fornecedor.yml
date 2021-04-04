@@ -5,5 +5,6 @@ spring:
     username: root
     url: 'jdbc:mysql://localhost:3307/fornecedor'
   jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ddl-auto: update

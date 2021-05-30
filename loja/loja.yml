@@ -3,7 +3,7 @@ spring:
   datasource:
     password: root
     username: root
-    url: 'jdbc:mysql://localhost:8806/fornecedor'
+    url: 'jdbc:mysql://localhost:8806/loja'
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:

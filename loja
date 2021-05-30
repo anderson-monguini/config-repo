@@ -1,0 +1,10 @@
+ 
+spring:
+  datasource:
+    password: root
+    username: root
+    url: 'jdbc:mysql://localhost:8806/fornecedor'
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
